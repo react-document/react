@@ -3188,8 +3188,8 @@ function initSuspenseListRenderState(
       rendering: null,
       renderingStartTime: 0,
       last: lastContentRow,
-      tail: tail,
-      tailMode: tailMode,
+      tail,
+      tailMode,
     }: SuspenseListRenderState);
   } else {
     // We can reuse the existing object from previous renders.
